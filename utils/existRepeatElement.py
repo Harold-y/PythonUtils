@@ -14,5 +14,6 @@ def existRepeat(in_list: List[typing.Any]) -> dict:
 
 
 if __name__ == '__main__':
-    in_list = [62, 50, 63, 55, 30, 57, 48, 58, 45, 65, 57, 60, 61, 53, 62]
+    in_list = [-21, 10, 17, 8, 4, 26, 5, 35, 33, -7, -16, 27, -12, 6, 29, -12, 5, 9, 20, 14, 14, 2, 13, -24, 21, 23,
+               -21, 5]
     print(existRepeat(in_list))
