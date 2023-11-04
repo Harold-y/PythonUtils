@@ -1,3 +1,7 @@
+import matplotlib.pyplot as plt
+
 if __name__ == '__main__':
-    li = [1, 2, 3, 4, 5]
-    print(li[1:3])
+    path = "G:\Programming\PythonUtils\img_encryption\img_1.jpg"
+    img = plt.imread(path)
+    img_flat = img.reshape(-1)
+    print(img_flat)
